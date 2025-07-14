@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7957775563909298749}
   - component: {fileID: 6167507094809553354}
   m_Layer: 0
-  m_Name: ice
+  m_Name: fire
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28,8 +28,8 @@ Transform:
   m_GameObject: {fileID: 4107985138632395547}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.1761, y: 3.7151, z: 0}
-  m_LocalScale: {x: 1.359922, y: 1.4221121, z: 1}
+  m_LocalPosition: {x: 1.1688, y: 3.6713, z: 0}
+  m_LocalScale: {x: 1.1739956, y: 1.3966178, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -78,12 +78,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -856085545168688419, guid: 82d5cc847a621bf4ea3678e80c9ea060, type: 3}
+  m_Sprite: {fileID: 4567650095466812643, guid: 72898df9ca58bdf4e8e32f6a85e4da99, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.66, y: 1.7}
+  m_Size: {x: 0.58, y: 1.59}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -119,21 +119,21 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.0062898695, y: 0.010225654}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.66, y: 1.7}
-    newSize: {x: 0.66, y: 1.7}
+    oldSize: {x: 0.58, y: 1.59}
+    newSize: {x: 0.58, y: 1.59}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.66, y: 1.7}
+  m_Size: {x: 0.48355567, y: 1.4877436}
   m_EdgeRadius: 0
 --- !u!114 &6167507094809553354
 MonoBehaviour:
@@ -147,6 +147,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a2fbc9881a73e34ca46bfab6ceb1b06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minSpeed: 9
-  maxSpeed: 14
+  minSpeed: 14
+  maxSpeed: 16
   damege: 1

@@ -27,6 +27,11 @@ public class enemy : MonoBehaviour
         if(hitobject.tag == "Player")
         {
             playerScript.takeDameg(damege);
+            Destroy(gameObject);
+        }
+        if (hitobject.tag == "Ground")
+        {
+            Destroy(gameObject);
         }
     }
 }
