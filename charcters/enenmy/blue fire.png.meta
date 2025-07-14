@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b309eae36237f984ca4c44ef24302c0b
+guid: dc94f907fdc0c954595511f92beedc4a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4567650095466812643
-    second: w_b_jjchuojian3_0
+      213: 1967710077536152645
+    second: w_b_jjbingdong1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -178,23 +178,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: w_b_jjchuojian3_0
+      name: blue fire
       rect:
         serializedVersion: 2
-        x: 0
+        x: 3
         y: 1
-        width: 58
-        height: 159
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 127
+        height: 40
+      alignment: 9
+      pivot: {x: 0.09215364, y: 0.44}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3e41496bf8d836f30800000000000000
-      internalID: 4567650095466812643
+      spriteID: 54caf70e3e5be4b10800000000000000
+      internalID: 1967710077536152645
       vertices: []
       indices: 
       edges: []
@@ -203,7 +203,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: bf86c6e4d2ce63b44bdfae8ada1277ec
     internalID: 0
     vertices: []
     indices: 
@@ -213,7 +213,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      w_b_jjchuojian3_0: 4567650095466812643
+      blue fire: 1967710077536152645
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

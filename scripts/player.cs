@@ -5,7 +5,7 @@ public class player : MonoBehaviour
 {
     Rigidbody2D rb;
     public float speed = 5f;
-    float hp = 5f;
+    int hp = 5;
     float move;
     Animator anime;
 
@@ -42,8 +42,16 @@ public class player : MonoBehaviour
             move = 1f;
         }
 
-        rb.linearVelocity = new Vector2(move * speed, rb.linearVelocity.y);
+        rb.position += new Vector2(move * speed * Time.fixedDeltaTime, rb.linearVelocity.y);
 
-        print(move * speed);
+    }
+
+    public void takeDameg(int dameg)
+    {
+        hp -= dameg;
+        if (hp <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
 }
