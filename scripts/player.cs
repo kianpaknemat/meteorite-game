@@ -1,18 +1,25 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
+using TMPro;
+
 
 public class player : MonoBehaviour
 {
     Rigidbody2D rb;
     public float speed = 5f;
-    int hp = 5;
     float move;
     Animator anime;
+    public TextMeshProUGUI health;
+    public int hp;
+
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anime = GetComponent<Animator>();
+        health.text = hp.ToString();
     }
 
     void Update()
@@ -49,6 +56,7 @@ public class player : MonoBehaviour
     public void takeDameg(int dameg)
     {
         hp -= dameg;
+        health.text = hp.ToString();
         if (hp <= 0)
         {
             Destroy(gameObject);

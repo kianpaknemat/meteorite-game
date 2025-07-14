@@ -9,6 +9,7 @@ public class enemy : MonoBehaviour
     Rigidbody2D rb;
     player playerScript;
     public int damege;
+    public GameObject explojen;
 
 
     void Start()
@@ -27,10 +28,12 @@ public class enemy : MonoBehaviour
         if(hitobject.tag == "Player")
         {
             playerScript.takeDameg(damege);
+            Instantiate(explojen, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
         if (hitobject.tag == "Ground")
         {
+            Instantiate(explojen, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
     }

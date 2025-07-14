@@ -28,8 +28,8 @@ Transform:
   m_GameObject: {fileID: 7610864357624408801}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.05637, y: 3.6046057, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -8.0461, y: 3.5273, z: 0}
+  m_LocalScale: {x: 1.0491, y: 1.1199, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -150,3 +150,4 @@ MonoBehaviour:
   minSpeed: 15
   maxSpeed: 18
   damege: 1
+  explojen: {fileID: 4432492489217958820, guid: 5b2059938ab2ff543a98cac05327e817, type: 3}
