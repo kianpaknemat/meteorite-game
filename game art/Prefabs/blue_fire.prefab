@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6999687075832675305}
   - component: {fileID: 3291891471320152044}
   - component: {fileID: -4391625222766830715}
-  - component: {fileID: 5802247434758330916}
+  - component: {fileID: 3180672801996052921}
   m_Layer: 0
   m_Name: blue_fire
   m_TagString: Untagged
@@ -135,7 +135,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.42, y: 1.29}
   m_EdgeRadius: 0
---- !u!114 &5802247434758330916
+--- !u!114 &3180672801996052921
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a2fbc9881a73e34ca46bfab6ceb1b06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minSpeed: 15
+  minSpeed: 16
   maxSpeed: 18
   damege: 1
   explojen: {fileID: 4432492489217958820, guid: 5b2059938ab2ff543a98cac05327e817, type: 3}

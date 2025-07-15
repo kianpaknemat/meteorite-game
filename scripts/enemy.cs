@@ -21,11 +21,11 @@ public class enemy : MonoBehaviour
 
     void Update()
     {
-        transform.Translate(Vector2.down *speed * Time.deltaTime);
+        transform.Translate(Vector2.down * speed * Time.deltaTime);
     }
     void OnTriggerEnter2D(Collider2D hitobject)
     {
-        if(hitobject.tag == "Player")
+        if (hitobject.tag == "Player")
         {
             playerScript.takeDameg(damege);
             Instantiate(explojen, transform.position, Quaternion.identity);

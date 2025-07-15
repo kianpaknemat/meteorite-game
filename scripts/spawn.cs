@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class respawn : MonoBehaviour
+public class spawn : MonoBehaviour
 {
     public Transform[] spownPoint;
     public GameObject[] hazards;
@@ -11,7 +11,7 @@ public class respawn : MonoBehaviour
     public GameObject player;
     void Start()
     {
-        
+
     }
 
     void Update()
@@ -34,7 +34,7 @@ public class respawn : MonoBehaviour
                 timeBtwSpawns -= Time.deltaTime;
             }
         }
-        
-        
+
+
     }
 }
